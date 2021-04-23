@@ -33,9 +33,9 @@
         41H176V27.91h-6.116c-3.764 0-6.142 1.909-6.117 4.568-.017 1.491.875 2.727 2.438 3.46L163.631 
         41h4.316l2.2-4.33h1.504V41zm0-7.159h-1.665c-1.249 0-1.827-.613-1.801-1.193-.026-.545.518-1.227 1.699-1.227h1.767v2.42z" fill="#fff"/>
       </svg>
-      <div class="header__lang">
-        <p class="header__lang-link">Ru</p>
-        <p class="header__lang-link">En</p>
+      <div class="header__langs">
+        <p class="header__lang lang_status_active">Ru</p>
+        <p class="header__lang">En</p>
       </div>
     </header>        
     <main class="content">
@@ -63,35 +63,37 @@
         </p>
         <ul class="intro__list">
           <li>
-            Часовых поясов 11
+            <span class="intro__span-accent">Часовых поясов</span> 11
           </li>
           <li>
-            Объектов природного наследия ЮНЕСКО 12
+            <span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12
           </li>
           <li>
-            Объектов культурного наследия ЮНЕСКО 16
+            <span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16
           </li>
           <li>
-            Природных заповедников 105
+            <span class="intro__span-accent">Природных заповедников</span> 105
           </li>
           <li>
-            Аэропортов 241
+            <span class="intro__span-accent">Аэропортов</span> 241
           </li>
         </ul>
       </section>
       <section class="photo-grid">
-        <img src="./images/pg1.png" alt="Окно поезда" class="photo-grid__item">
-        <img src="./images/pg2.png" alt="Вершина горы" class="photo-grid__item">
-        <img src="./images/pg3.png" alt="Собака на сене" class="photo-grid__item">
-        <img src="./images/pg4.png" alt="Лес в тумане" class="photo-grid__item">
-        <img src="./images/pg5.png" alt="Колесо машины на льду" class="photo-grid__item">
-        <img src="./images/pg6.png" alt="Пляж с горой" class="photo-grid__item">
-        <img src="./images/pg7.png" alt="Гора" class="photo-grid__item">
-        <img src="./images/pg8.png" alt="Знак пешеходного перехода" class="photo-grid__item">
-        <img src="./images/pg9.png" alt="Гора с облаками" class="photo-grid__item">
-        <img src="./images/pg10.png" alt="Болото" class="photo-grid__item">
-        <img src="./images/pg11.png" alt="Обрыв на горе" class="photo-grid__item">
-        <img src="./images/pg12.png" alt="Горы в облаках" class="photo-grid__item">
+        <div class="photo-grid__items">
+          <img src="./images/pg1.png" alt="Окно поезда" class="photo-grid__item">
+          <img src="./images/pg2.png" alt="Вершина горы" class="photo-grid__item">
+          <img src="./images/pg3.png" alt="Собака на сене" class="photo-grid__item">
+          <img src="./images/pg4.png" alt="Лес в тумане" class="photo-grid__item">
+          <img src="./images/pg5.png" alt="Колесо машины на льду" class="photo-grid__item">
+          <img src="./images/pg6.png" alt="Пляж с горой" class="photo-grid__item">
+          <img src="./images/pg7.png" alt="Гора" class="photo-grid__item">
+         <img src="./images/pg8.png" alt="Знак пешеходного перехода" class="photo-grid__item">
+          <img src="./images/pg9.png" alt="Гора с облаками" class="photo-grid__item">
+         <img src="./images/pg10.png" alt="Болото" class="photo-grid__item">
+          <img src="./images/pg11.png" alt="Обрыв на горе" class="photo-grid__item">
+         <img src="./images/pg12.png" alt="Горы в облаках" class="photo-grid__item">
+        </div>
       </section>
       <section class="places">
         <div class="places">
@@ -222,9 +224,7 @@
         <p class="cover__subtitle">
           По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
         </p>
-        <div class="cover__overlay">
           <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"><img src="./images/coverbg.png" alt="Стоянка поездов" class="cover__background">
-        </div>
       </section>
     </main>
     <footer class="footer">
