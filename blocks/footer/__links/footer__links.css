@@ -1,0 +1,13 @@
+.footer__links{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(5,min-content);
+    column-gap: 18px;
+}
+
+.footer__links:hover{
+    opacity: 0.8;
+    transition: ease 0.1s;
+}
