@@ -17,3 +17,14 @@
         margin: 0px;
     }
 }
+
+@media screen and (max-width: 560px){
+    .place__title{
+        font-family: 'Inter-Black';
+        max-width: 460px;
+        font-size: 32px;
+        grid-column-start: 1;
+        padding: 0px;
+        margin: 0px;
+    }
+}

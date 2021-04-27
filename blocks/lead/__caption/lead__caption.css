@@ -1,6 +1,6 @@
 .lead__caption{
     font-size: 10px;
-    line-height: 14px;
+    line-height: 1.4;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     align-self: flex-start;
@@ -10,11 +10,23 @@
 @media screen and (max-width: 768px) {
     .lead__caption{
         font-size: 10px;
-        line-height: 14px;
+        line-height: 1.4;
         text-transform: uppercase;
         letter-spacing: 0.15em;
         align-self: flex-start;
         margin-top: 8px;
         margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .lead__caption{
+        font-size: 10px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        align-self: flex-start;
+        margin-top: 8px;
+        margin-left: 16px;
     }
 }
