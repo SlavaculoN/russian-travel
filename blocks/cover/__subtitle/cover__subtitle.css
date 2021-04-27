@@ -11,13 +11,8 @@
 
 @media screen and (max-width: 560px) {
     .cover__subtitle{
-        max-width: 360px;
         font-size: 14px;
         line-height: 1.1;
-        text-align: center;
         margin: 16px 0px 0px;
-        padding: 0px;
-        z-index: 3;
-        color: #ffffff;
     }
 }

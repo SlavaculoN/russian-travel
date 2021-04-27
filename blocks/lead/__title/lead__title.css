@@ -10,12 +10,6 @@
 
 @media screen and (max-width: 700px) {
     .lead__title{
-        display: flex;
-        max-width: 700px;
-        margin: 0px auto;
-        font-family: 'Inter-Black';
         font-size: 40px;
-        line-height: 1.1;
-        text-align: center;
     }
 }

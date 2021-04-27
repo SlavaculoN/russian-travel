@@ -7,18 +7,12 @@
 
 @media screen and (max-width: 1024px){
     .places{
-        display: flex;
-        flex-wrap: wrap;
         width: calc(100% - 96px);
-        margin: 0px auto;
     }
 }
 
 @media screen and (max-width: 768px){
     .places{
-        display: flex;
-        flex-wrap: wrap;
         width: calc(100% - 48px);
-        margin: 0px auto;
     }
 }
