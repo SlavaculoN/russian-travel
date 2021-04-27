@@ -1,5 +1,6 @@
 .place__title{
-    font-family: 'Inter-Black';
+    font-family: 'Inter';
+    font-weight: 900;
     max-width: 460px;
     font-size: 72px;
     grid-column-start: 1;
