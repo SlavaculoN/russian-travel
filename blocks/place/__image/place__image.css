@@ -1,4 +1,6 @@
 .place__image{
     width: 100%;
     grid-row-start: 2;
+    margin: 0px;
+    padding: 0px;
 }

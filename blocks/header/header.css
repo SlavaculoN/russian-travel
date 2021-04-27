@@ -1,6 +1,25 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     width: calc(100% - 96px);
-    margin-top: 28px;
+    margin: 28px auto 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        width: calc(100% - 48px);
+        display: flex;
+        justify-content: space-between;
+        margin: 28px auto 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header{
+        width: calc(100% - 32px);
+        display: flex;
+        justify-content: space-between;
+        margin: 16px auto 0px;
+    }
 }
