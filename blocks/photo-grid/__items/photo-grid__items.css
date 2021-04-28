@@ -14,22 +14,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .photo-grid__items{
-        grid-template-columns: repeat(3, min-content);
-        grid-template-rows: repeat(4, min-content);
-        gap: 14px;
-    }
-}
-
 @media screen and (max-width: 980px) {
-    .photo-grid__items{
-        grid-template-columns: repeat(2, min-content);
-        grid-template-rows: repeat(6, min-content);
-    }
-}
-
-@media screen and (max-width: 768px) {
     .photo-grid__items{
         grid-template-columns: repeat(2, min-content);
         grid-template-rows: repeat(6, min-content);

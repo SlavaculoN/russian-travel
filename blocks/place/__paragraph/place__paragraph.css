@@ -1,7 +1,8 @@
 .place__paragraph{
     font-size: 18px;
+    max-width: 484px;
     line-height: 1.6;
-    font-weight: normal;
+    font-weight: 400;
     padding: 0px;
     margin: 0px 0px 26px;
 }
